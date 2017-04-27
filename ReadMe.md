@@ -10,4 +10,4 @@ This proved quite helpful: [link](https://askubuntu.com/questions/900454/how-do-
 ![](ReadMe_assets/install-reactjs.png)
 
 ## Webpack Configuration ##
-[](https://gist.github.com/learncodeacademy/25092d8f1daf5e4a6fd3)
+[Configuration Gist](https://gist.github.com/learncodeacademy/25092d8f1daf5e4a6fd3)
