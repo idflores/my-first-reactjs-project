@@ -8,3 +8,6 @@ Using the following tutorial as reference: [LearnCode.academy](https://www.youtu
 This proved quite helpful: [link](https://askubuntu.com/questions/900454/how-do-i-install-reactjs)
 
 ![](ReadMe_assets/install-reactjs.png)
+
+## Webpack Configuration ##
+[](https://gist.github.com/learncodeacademy/25092d8f1daf5e4a6fd3)
