@@ -1,0 +1,23 @@
+{
+  "name": "my-first-reactjs-project",
+  "version": "1.0.0",
+  "description": "This is a \"Hello World\" project as I figure out how ReactJS works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idflores/my-first-reactjs-project.git"
+  },
+  "author": "Israel Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idflores/my-first-reactjs-project/issues"
+  },
+  "homepage": "https://github.com/idflores/my-first-reactjs-project#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "webpack": "^2.4.1"
+  }
+}
