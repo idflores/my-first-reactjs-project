@@ -1,6 +1,6 @@
 {
   "name": "my-first-reactjs-project",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "This is a \"Hello World\" project as I figure out how ReactJS works.",
   "main": "webpack.config.js",
   "scripts": {
@@ -18,7 +18,13 @@
   "homepage": "https://github.com/idflores/my-first-reactjs-project#readme",
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
     "webpack": "^2.4.1"
   }
 }

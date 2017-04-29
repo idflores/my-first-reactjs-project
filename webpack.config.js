@@ -5,6 +5,15 @@ module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
   entry: "./src/js/scripts.js",
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader"
+      }
+    ]
+  },
   output: {
     path: __dirname + "/src/js",
     filename: "scripts.min.js"
