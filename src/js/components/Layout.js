@@ -11,15 +11,19 @@ export default class Layout extends React.Component {
     };
   }
 
-  render() {
-    setTimeout(() => {
-      this.setState({title: "Welcome Israel!"})
-    }, 2000);
+  changeTitle(title) {
+    // {title} is the same as {title: title}
+    // {title} may be used thanks to ES6 and Babel
+    this.setState({title});
+  }
 
-    return (
+  render() {
+    // *extremely* important .bind(this) is used.
+    // statement will perform state change on Layout component
+    // _not_ the injected Header component
+     return (
       <div>
-        <Header title={this.state. title} />
-        <Header title={"Other Title"} />
+        <Header changeTitle={this.changeTitle.bind(this)}  title={this.state.title} />
         <Footer />
       </div>
     );
